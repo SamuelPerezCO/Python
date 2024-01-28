@@ -6,4 +6,4 @@ def multip(*args):
     
     return resultado
 
-print(f'El resultado de la multiplicacion es: {multip(1 , 4 , 3 , 2 , 5)}')
+print(f'El resultado de la multiplicacion es: {multip(3,5,15)}')
