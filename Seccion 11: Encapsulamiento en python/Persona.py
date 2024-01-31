@@ -11,7 +11,7 @@ class Persona:
     @property
     def apellido(self):
         return self._apellido
-    
+    #get
     @property
     def edad(self):
         return self._edad
@@ -24,6 +24,7 @@ class Persona:
     def apellido(self , apellido):
         self._apellido = apellido
 
+    #Set
     @edad.setter
     def edad(self , edad):
         self._edad = edad
