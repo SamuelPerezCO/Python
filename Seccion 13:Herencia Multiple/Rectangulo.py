@@ -1,11 +1,10 @@
 from FiguraGeometrica import FiguraGeometrica
 from Color import Color
 
-class Cuadrado(FiguraGeometrica , Color):
+class Rectangulo(FiguraGeometrica , Color):
 
-    def __init__(self, lado , color):
-        #super().__init__()
-        FiguraGeometrica.__init__(self, lado , lado)
+    def __init__(self , ancho , alto , color):
+        FiguraGeometrica.__init__(self ,ancho , alto)
         Color.__init__(self , color)
 
     def calcular_area(self):
